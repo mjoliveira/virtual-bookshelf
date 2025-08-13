@@ -1,4 +1,6 @@
 # Virtual Bookshelf
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![GitHub top language](https://img.shields.io/github/languages/top/mjoliveira/virtual-bookshelf?color=blue&logo=typescript)](https://github.com/mjoliveira/virtual-bookshelf)
 
 Uma **estante virtual** para organizar livros que já foram lidos, estão sendo lidos ou que ainda se deseja ler.  
 Projeto criado com o objetivo de **estudo e experimentação** de novas ferramentas e tecnologias no ecossistema React + TypeScript.
