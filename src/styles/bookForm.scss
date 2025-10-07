@@ -1,0 +1,16 @@
+h1 {
+  font-size: 1.8rem;
+  color:black;
+}
+
+.save-button {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #333;
+    }
+  }

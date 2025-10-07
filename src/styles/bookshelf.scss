@@ -1,0 +1,35 @@
+.bookshelf-container {
+  padding: 20px;
+}
+
+.bookshelf-header {
+  display: flex;
+  justify-content: space-between; // separa título e botão
+  align-items: center;
+  margin-bottom: 20px;
+
+  h1 {
+    font-size: 1.8rem;
+    color:black;
+  }
+
+  .add-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
+
+.bookshelf-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
